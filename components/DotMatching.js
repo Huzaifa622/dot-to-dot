@@ -109,12 +109,12 @@ const DotMatching = () => {
 
   return (
     <>
-      <div className="mb-6 z-10 fixed bg-slate-400 rounded-lg m-4 top-0 left-1/2">
+      {/* <div className="mb-6 z-10 fixed bg-slate-400 rounded-lg m-4 top-0 left-1/2">
         
         <button className="m-4" onClick={navigateToLastSelectedDot}>Navigate</button>
-        {/* <button onClick={handleZoomIn}>Zoom In</button>
-        <button onClick={handleZoomOut}>Zoom Out</button> */}
-      </div>
+        <button onClick={handleZoomIn}>Zoom In</button>
+        <button onClick={handleZoomOut}>Zoom Out</button>
+      </div> */}
       {data.length > 0 && (
         <svg
           ref={svgRef}
